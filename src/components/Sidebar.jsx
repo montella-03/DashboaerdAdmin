@@ -23,7 +23,7 @@ function Sidebar() {
         activeMenu && (
           <>
             <div className='flex justify-between items-center'>
-              <Link to='/' onclick={handleScreen} className='items-center gap-3 ml-3 mt-4 flex text-xl tracking-tight text-slate-900 font-extrabold'>
+              <Link to='/' onClick={handleScreen} className='items-center gap-3 ml-3 mt-4 flex text-xl tracking-tight text-slate-900 font-extrabold'>
                 <SiShopware/> <span>Shoppy</span>
               </Link>
               <TooltipComponent content='Close' position='BottomCenter'>
